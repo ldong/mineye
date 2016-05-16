@@ -31,12 +31,21 @@ The server is implemented using [flask](http://flask.pocoo.org/) and the front e
 #Install:
 ##OSX
 Need to install `opencv` and `imagemagick` (todo: add links)
+
+
 ```sh
+brew install opencv
+brew install freetype imagemagick
+
+# builtin with python >= 2.7.5
 pip install sqlite3
+
 pip install numpy
 pip install flask
 pip install wand
-pip install flask
+pip install pysqlite
+
+# Node
 npm install
 ```
 
