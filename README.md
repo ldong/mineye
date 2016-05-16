@@ -34,6 +34,10 @@ Need to install `opencv` and `imagemagick` (todo: add links)
 
 
 ```sh
+# May Require
+# xcode-select --install
+
+brew tap homebrew/science
 brew install opencv
 brew install freetype imagemagick
 
